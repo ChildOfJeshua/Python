@@ -1,2 +1,162 @@
-# Python
-Basics of Python defined terms and more
+#PYTHON LEARNING LANGUAGE
+  #PYTHON HOME
+  #PYTHON INTRO
+  #PYTHON GET STARTED
+  #PYTHON SYNTAX
+  #PYTHON OUTPUT
+  #PYTHON COMMENTS
+  #PYTHON VARIABLES
+  #PYTHON DATA TYPES
+  #PYTHON NUMBERS
+  #PYTHON CASTING
+  #PYTHON STRINGS
+  #PYTHON BOOLEANS
+  #PYTHON OPERATORS
+  #PYTHON LISTS
+  #PYTHON TUPLES
+  #PYTHON SETS
+  #PYTHON DICTIONARIES 
+  #PYTHON IF-ELSE
+  #PYTHON MATCH
+  #PYTHON WHILE LOOPS
+  #PYTHON FOR LOOPS
+  #PYTHON FUNCTIONS
+  #PYTHON RANGE
+  #PYTHON ARRAYS
+  #PYTHON ITERATORS
+  #PYTHON MODULES
+  #PYTHON DATES
+  #PYTHON MATH
+  #PYTHON JSON
+  #PYTHON RegEx
+  #PYTHON PIP
+  #PYTHON TRY-EXCEPT
+  #PYTHON STRING-FORMATTING
+  #PYTHON NONE
+  #PYTHON USER INPUT
+  #PYTHON VIRTUAL ENVIRONMENT
+
+#PYTHON CLASSES
+  #PYTHON OOP
+  #PYTHON CLASSES/OBJECTS
+  #PYTHON _INIT_METHOD
+  #PYTHON self PARAMETER
+  #PYTHON Class Properties
+  #PYTHON Class Methods
+  #PYTHON INHERITANCE
+  #PYTHON POLYMORPHISM
+  #PYTHON ENCAPSULATION 
+  #PYTHON INNER CLASS
+
+#FILE HANDLING 
+  #PYTHON FILE HANDLING
+  #PYTHON READ FILES
+  #PYTHON WRITE/CREATE FILES
+  #PYTHON DELETE FILES
+
+#PYTHON MODULES
+  #NUMPY TUTORIAL
+  #PANDAS TUTORIAL
+  #SCIPY TUTORIAL
+  #DJANGO TUTORIAL
+
+#PYTHON MATPLOTLIB
+  #Matplotlib Intro
+  #Matplotlib Get Started
+  #Matplotlib Pyplot
+  #Matplotlib Plotting
+  #Matplotlib Markers
+  #Matplotlib Line
+  #Matplotlib Labels
+  #Matplotlib Grid
+  #Matplotlib Subplot
+  #Matplotlib Scatter
+  #Matplotlib Bars
+  #Matplotlib Histograms
+  #Matplotlib Pie Charts
+
+#MACHINE LEARNING
+  Getting Started
+  Mean Median Mode
+  Standard Deviation
+  Percentile
+  Data Distribution
+  Normal Data Distribution
+  Scatter Plot
+  Linear Regression
+  Polynomial Regression
+  Multiple Regression
+  Scale
+  Train/Test
+  Decision Tree
+  Confusion Matrix
+  Hierarchical Clustering
+  Logistic Regression
+  Grid Search
+  Categorical Data
+  K-means
+  Bootstrap Aggregation
+  Cross Validation
+  AUC - ROC Curve
+  K-nearest neighbors
+
+#PYTHON DSA - Data Structures & Algorithms
+  Python DSA
+  Lists and Arrays
+  Stacks
+  Queues
+  Linked Lists
+  Hash Tables
+  Trees
+  Binary Trees
+  Binary Search Trees
+  AVL Trees
+  Graphs
+  Linear Search
+  Binary Search
+  Bubble Sort
+  Selection Sort
+  Insertion Sort
+  Quick Sort
+  Counting Sort
+  Radix Sort
+  Merge Sort
+
+#PYTHON SQL 
+  MySQL Get Started
+  MySQL Create Database
+  MySQL Create Table
+  MySQL Insert
+  MySQL Select
+  MySQL Where
+  MySQL Order By
+  MySQL Delete
+  MySQL Drop Table
+  MySQL Update
+  MySQL Limit
+  MySQL Join
+
+#PYTHON MONGODB
+  MongoDB Get Started
+  MongoDB Create DB
+  MongoDB Collection
+  MongoDB Insert
+  MongoDB Find
+  MongoDB Query
+  MongoDB Sort
+  MongoDB Delete
+  MongoDB Drop Collection
+  MongoDB Update
+  MongoDB Limit
+
+  
+
+
+
+
+
+
+
+
+
+
