@@ -1,0 +1,41 @@
+PYTHON LEARNING LANGUAGE
+#PART I - PYTHON LEARNING LANGUAGE
+  #PYTHON HOME & #PYTHON INTRO
+    Python - is a high level, interpreted, general-purpose programming language
+      # - abtracts away many low level hardware details
+      # - interpreted - source code executed by interpreter for quick edit-test cycle
+      # - general purpose - (not limited to one domain: web/scientific), many different programming tasks.
+        #Python Language Uses:
+          # - WEB DEVELOPMENT - back-end services, APIs
+          # - DATA ANALYSIS, MACHINE LEARNING & SCIENTIFIC COMPUTING 
+          # - AUTOMATION AND SCRIPTING (Tasks like File Processing, DevOps)
+          # - PROTOTYPING AND RAPID APPLICATION DEVELOPMENT 
+          # - EDUCATIONAL CONTEXTS (BEGINNER-FRIENDLY)
+          # - WINDOWS/MAC/LINUX/RASPBERRY PI
+          
+  #PYTHON GET STARTED
+      Python Editor - software application used to wrtie, edit, and manage Python code
+        #Check the Python Version of the editor:
+          ```
+          import sys
+          print(sys.version)
+          ```
+      Python Command Line - text based interface used to interact with a computer's operating system to run Python scripts and pass arguments to programs.
+        #When done with interface
+        ```
+        exit()
+        ```
+        
+  #PYTHON SYNTAX
+  #PYTHON OUTPUT
+  #PYTHON COMMENTS
+  #PYTHON VARIABLES
+  #PYTHON DATA TYPES
+  #PYTHON NUMBERS
+  #PYTHON CASTING
+  #PYTHON STRINGS
+  #PYTHON BOOLEANS
+  #PYTHON OPERATORS
+  #PYTHON LISTS
+  #PYTHON TUPLES
+  #PYTHON SETS
