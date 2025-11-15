@@ -27,6 +27,16 @@ PYTHON LEARNING LANGUAGE
         ```
         
   #PYTHON SYNTAX
+      #Syntax - refers to the set of rules that define how code must be structured and organized so that the Python interpreter can understand and execute it correctly. 
+        #Indentation - refers to the spaces at the begginning line of code.
+        #Python Variables - symbolic names that refer to objects or values stored in memory, acting as containers for data that can be referenced and manipulated during program execution.
+        #Comment - lines of text within the source code that are ignored by the Python Interpreter during execution.
+        #Statement - complete instruction that tells the interpreter to perform a specfic action, serving as the smallest executable unit of code
+
+
+
+
+  
   #PYTHON OUTPUT
   #PYTHON COMMENTS
   #PYTHON VARIABLES
