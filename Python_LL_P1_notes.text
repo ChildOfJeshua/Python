@@ -119,13 +119,3 @@ PYTHON LEARNING LANGUAGE
                   collection types: (named tuple, deque(double-ended queue), counter, ordereddict, defaultdict, chainmap)
                   data and time types: (datetime.date, datetime.time, datetime.datetime, datetime.timedelta)
                   esum types: (enum)
-
-                  
-  #PYTHON NUMBERS
-  #PYTHON CASTING
-  #PYTHON STRINGS
-  #PYTHON BOOLEANS
-  #PYTHON OPERATORS
-  #PYTHON LISTS
-  #PYTHON TUPLES
-  #PYTHON SETS
