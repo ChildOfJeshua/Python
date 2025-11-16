@@ -39,26 +39,88 @@ PYTHON LEARNING LANGUAGE
           
         #Python Variables - symbolic names that refer to objects or values stored in memory, acting as containers for data that can be referenced and manipulated during program execution.
           
-          EXAMPLES: numeric variables, boolean variables, string variables, sequence variables(list|tuple|range), mapping variable (dict), set variables (set),
-                    bytes variables, bytearray variables, None variables, Special Variables  _ - (underscore), __ (double underscore), __name__ (special variable),
-                    user-defined variables. 
+          EXAMPLES: 
+                    global variables - (outside and inside function)
+                    local variables - (inside the function)
+                    numeric variables, 
+                    boolean variables, 
+                    string variables, 
+                    sequence variables(list|tuple|range), 
+                    mapping variable (dict), 
+                    set variables (set),
+                    bytes variables, 
+                    bytearray variables, 
+                    None variables, 
+                    Special Variables  
+                    _ - (underscore), 
+                    __ (double underscore), 
+                    __name__ (special variable),
+                    user-defined variables 
 
           
         #Comment - lines of text within the source code that are ignored by the Python Interpreter during execution.
 
-          EXAMPLES: single-line comments: '#', multi-line comments: ' """ """ '
+          EXAMPLES: single-line comments: '#', 
+                    multi-line comments: ' """ """ '
         
         #Statement - complete instruction that tells the interpreter to perform a specfic action, serving as the smallest executable unit of code
 
-          EXAMPLES: Assignment Statements, Expression Statements, Conditional Statements(if, elif, else), loop statements (for, while),
-                    Branching Statements (break, continue), pass statements, return statement, import statement, global statement, non-local statement, 
-                    raise statements, try statement, with statement, assert statement, del statement, yield statement, async and await statements,
+          EXAMPLES: Assignment Statements, 
+                    Expression Statements, 
+                    Conditional Statements(if, elif, else), 
+                    loop statements (for, while),
+                    Branching Statements (break, continue), 
+                    pass statements, return statement, 
+                    import statement, global statement, 
+                    non-local statement, 
+                    raise statements, 
+                    try statement, 
+                    with statement, 
+                    assert statement, 
+                    del statement, 
+                    yield statement, 
+                    async and await statements,
                     match statement (Python 3.10+)
   
-  #PYTHON OUTPUT
-  #PYTHON COMMENTS
-  #PYTHON VARIABLES
-  #PYTHON DATA TYPES
+  #PYTHON OUTPUT - information or result produced by a program, typically displayed to the user or sent to a specific destination such as the screen or file.
+        
+        EXAMPLES: Print statements: (Basic Print, Multiple Arguments, Custom Seperator, Custom End Character, Print to File, Flush Output)
+                  Formatted output: (f-string(Python 3.6+), .format(), the modulus/percent symbol, format specifiers)
+                  String representation: (str(), repr(), ascii())
+                  Writing to Files: (Write to Text file, Write Multiple lines, Append to File)
+                  Standard Output Streams: (sys.stdout, sys.stderr)
+                  Logging Output: (logging.basicConfig(level=logging.INFO), logging.debug("Debug message"), logging.ingo("Info message"))
+                  Pretty Printing: (from pprint import pprint)
+                  JSON Output: (import json)
+                  CSV Output: (import csv)
+                  Binary Output: (with open("output.bin", "wb") as f:)
+                  Console Output: with Colors (using libraries)
+                  Return Values: (Function Output)
+                  Generator Output: (Yield)
+                  Exception Output: (try/except)
+                  GUI Output: (Using tkinter)
+                  Web Output (Using Flask)
+                  Database Output: (import splite3...)
+                  Email Output: (smtplib)
+                  Network Output (Socket): (import socket)
+                  Pickle Output (Serialization): import pickle
+
+  #PYTHON DATA TYPES - classifications that define the kind of value a variable can hold and the operations that can be performed on that value.
+
+        EXAMPLES: numeric types: (int,float,complex)
+                  sequence types: (str,list,tuple,range)
+                  mapping types: (dict)
+                  set types: (set,frozenset,)
+                  boolean types: (bool: True/False)
+                  binary types: (bytes,bytearray,memoryview)
+                  none types: (none)
+                  custom types: (class/object)
+                  special types: (function class, module class, type class)
+                  collection types: (named tuple, deque(double-ended queue), counter, ordereddict, defaultdict, chainmap)
+                  data and time types: (datetime.date, datetime.time, datetime.datetime, datetime.timedelta)
+                  esum types: (enum)
+
+                  
   #PYTHON NUMBERS
   #PYTHON CASTING
   #PYTHON STRINGS
