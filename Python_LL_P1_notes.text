@@ -27,15 +27,33 @@ PYTHON LEARNING LANGUAGE
         ```
         
   #PYTHON SYNTAX
-      #Syntax - refers to the set of rules that define how code must be structured and organized so that the Python interpreter can understand and execute it correctly. 
+      #Syntax - refers to the set of rules that define how code must be structured and organized so that the Python interpreter can understand and execute it correctly.
+          
+          EXAMPLES:
+          
         #Indentation - refers to the spaces at the begginning line of code.
+        
+          EXAMPLES: function, conditional statments, for/while loops, class definitions, try-execept blocks, with statements, 
+                    nested indentation, list/dict/set comprehensions, match case, lambda functions, generator expressions,
+                    async functions, async for/with, decorators, type hits with multi line, walrus operators in blocks, & assertion statments.
+          
         #Python Variables - symbolic names that refer to objects or values stored in memory, acting as containers for data that can be referenced and manipulated during program execution.
+          
+          EXAMPLES: numeric variables, boolean variables, string variables, sequence variables(list|tuple|range), mapping variable (dict), set variables (set),
+                    bytes variables, bytearray variables, None variables, Special Variables  _ - (underscore), __ (double underscore), __name__ (special variable),
+                    user-defined variables. 
+
+          
         #Comment - lines of text within the source code that are ignored by the Python Interpreter during execution.
+
+          EXAMPLES: single-line comments: '#', multi-line comments: ' """ """ '
+        
         #Statement - complete instruction that tells the interpreter to perform a specfic action, serving as the smallest executable unit of code
 
-
-
-
+          EXAMPLES: Assignment Statements, Expression Statements, Conditional Statements(if, elif, else), loop statements (for, while),
+                    Branching Statements (break, continue), pass statements, return statement, import statement, global statement, non-local statement, 
+                    raise statements, try statement, with statement, assert statement, del statement, yield statement, async and await statements,
+                    match statement (Python 3.10+)
   
   #PYTHON OUTPUT
   #PYTHON COMMENTS
