@@ -3,18 +3,6 @@ OUTLINE:
   #PYTHON NUMBERS
   #PYTHON CASTING
   #PYTHON STRINGS
-  #PYTHON BOOLEANS
-  #PYTHON OPERATORS
-  #PYTHON LISTS
-  #PYTHON TUPLES
-  #PYTHON SETS
-  #PYTHON DICTIONARIES 
-  #PYTHON IF-ELSE
-  #PYTHON MATCH
-  #PYTHON WHILE LOOPS
-  #PYTHON FOR LOOPS
-  #PYTHON FUNCTIONS
-  #PYTHON RANGE
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON NUMBERS - fundamental data types used to represent and manipulate numerical values, essential for performing arithmetic operations and calculations.
     #EXAMPLES: Integers (5, -3)
