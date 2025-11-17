@@ -178,6 +178,135 @@ OUTLINE:
 
                
     STRING METHODS - a function that is associated with a particular object or class and is typically defined within a class.
-    #EXAMPLES: 
+    #EXAMPLES: CAPITALIZE:
+               txt = "Jesus is King!"
+               x = txt.capitalize()
+
+               CASEFOLD:
+               txt = "Jesus is King!"
+               x = txt.casefold
+
+               CENTER:
+               txt = "Jesus is King!"
+               x = txt.center()
+
+               COUNT:
+               txt = "Jesus is King!"
+               x = txt.count()
+
+               ENCODE:
+               txt = "Jesus is King!"
+               x = txt.encode()
+
+               ENDSWITH:
+               txt = "Jesus is King!"
+               x = txt.endswith()
+
+               EXPANDTABS:
+               txt = "Jesus is King!"
+               x = txt.expandtabs()
+
+               FIND:
+               txt = "Jesus is King!"
+               x = txt.find()
+
+               FORMART:
+               txt = "Jesus is King!"
+               x = txt.format()
+
+               FORMAT MAP:
+               txt = "Jesus is King!"
+               x = txt.format_map()
+
+               INDEX:
+               txt = "Jesus is King!"
+               x = txt.index()
+
+               IS ALNUM:
+               txt = "Jesus is King!"
+               x = txt.isalnum()
+
+               IS ALPHA:
+               txt = "Jesus is King!"
+               x = txt.isalpha()
+
+               IS ASCII:
+               txt = "Jesus is King!"
+               x = txt.isascii()
+
+               IS DECIMAL:
+               txt = "Jesus is King!"
+               x = txt.isdecimal()
+
+               IS DIGIT:
+               txt = "Jesus is King!"
+               x = txt.isdigital()
+
+               IS IDENTIFIER
+               txt = "Jesus is King!"
+               x = txt.isidentifier()
+
+               ISLOWER
+               txt = "Jesus is King!"
+               x = txt.isslower()
+
+               ISNUMERIC
+               txt = "Jesus is King!"
+               x = txt.isnumeric()
+
+               ISPRINTABLE
+               txt = "Jesus is King!"
+               x = txt.isprintable()
+
+               ISSPACE
+               txt = "Jesus is King!"
+               x = txt.isspace()
+
+               ISTITLE
+               txt = "Jesus is King!"
+               x = txt.istitle()
+
+               JOIN 
+
+               L JUST
+
+               LOWER
+
+               LSTRIP
+
+               MAKETRANS
+
+               PARTITION
+
+               REPLACE
+
+               R-FIND
+
+               R-INDEX
+
+               R-JUST
+
+               R-PARTITION
+
+               R-SPLIT
+
+               R-STRIP
+
+               SPLIT
+
+               SPLITLINES
+
+               STARTSWITH
+
+               STRIP
+
+               TITLE
+
+               TRANSLATE
+
+               UPPER
+
+               ZFILL
+               
     
 
