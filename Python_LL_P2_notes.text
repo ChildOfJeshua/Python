@@ -129,7 +129,9 @@ OUTLINE:
                txt = f"Jesus says forgive more than {70 * 7} times"
                print(txt)
 
-    ESCAPE CHARACTERS:
+    ESCAPE CHARACTERS - escape characters are sequences that begin with a backslash ($$ and are used to represent special characters within strings that would
+    otherwise be difficult or impossible to include directly.
+              
     
     STRING METHODS:
     
