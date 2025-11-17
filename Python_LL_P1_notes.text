@@ -1,5 +1,14 @@
 PYTHON LEARNING LANGUAGE
-#PART I - PYTHON LEARNING LANGUAGE
+OUTLINE:
+  #PYTHON HOME
+  #PYTHON INTRO
+  #PYTHON GET STARTED
+  #PYTHON SYNTAX
+  #PYTHON OUTPUT
+  #PYTHON COMMENTS
+  #PYTHON VARIABLES
+  #PYTHON DATA TYPES
+----------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON HOME & #PYTHON INTRO
     Python - is a high level, interpreted, general-purpose programming language
       # - abtracts away many low level hardware details
