@@ -1,8 +1,82 @@
 #Python_LL_P2_Outline
-  #PYTHON NUMBERS
-  #PYTHON CASTING
-  #PYTHON STRINGS
+  #PYTHON NUMBERS - fundamental data types used to represent and manipulate numerical values, essential for performing arithmetic operations and calculations.
+    #EXAMPLES: Integers (5, -3)
+               float (3.14, -0.001)
+               complex numbers (3 + 4j)
+  
+  #PYTHON CASTING - the process of converting a variable's data type into another data type.
+    #EXAMPLES: str/float/int -> int
+                  x = int(1)
+                  y = int(2.8)
+                  z = int("3.1")
+                str/float/int -> float
+                  x = float(1)
+                  y = float(2.8)
+                  z = float("3")
+                  w = float("4.2")
+                str/float/int -> string
+                  z = str("s1")
+                  y = str(2)
+                  x = str(3.0)
+  #PYTHON STRINGS - a sequence of characters used for representing textual data enclosed in either single, double, triple quotes for multi line strings
+    GENERAL INFORMATION:
+    #EXAMPLES: Quotes_Inside_Quotes:
+                    print(It's alright! "'He is called "Johnny"')
+               Assign String to Variable:
+                    j = "Jesus"
+               Multiline String:
+                   a = '''Lorem ipsum dolor sit amet,  
+                   consectetur adipiscing elit,
+                   sed do eiusmod tempor incididunt
+                   ut labore et dolore magna aliqua.'''
+                  print(a)
+              Strings As Arrays:
+                  a = "Hello World!"
+                  print(a[1])
+              Looping Through a String:
+                  for x in "banana":
+                  print(x)
+              String Length
+                  a = "Hello World!"
+                  print(len(a))
+              Check String
+                  txt = "Everyone Needs Jesus!"
+                  print("Jesus" in txt)
+                  
+                  OR
+
+                  txt = "Everyone Needs Jesus!"
+                  if "Jesus" in txt:
+                    print("Yes, 'Jesus' is the Only Way."
+              
+              Check String
+                  txt = "Everyone Needs Jesus!"
+                  print("Jesus" in txt)
+                  
+                  OR
+
+                  txt = "Everyone Needs Jesus!"
+                  if "Jesus" in txt:
+                    print("Yes, 'Jesus' is the Only Way.")
+
+              Check if Not
+                  txt = "Everyone Needs Jesus!"
+                  print("Money" in txt)
+
+                  OR
+
+                  txt = "Everyone Needs Jesus!"
+                    if "Money" in txt:
+                      print("Error.")
+  
+  PYTHON STRINGS_pageOne               
+    SLICING STRINGS:
+    
   #PYTHON BOOLEANS
+
+  #PYTHON DATA TYPES - classifications that define the kind of value a variable can hold and the operations that can be performed on that value.
+
+        EXAMPLES: 
   #PYTHON OPERATORS
   #PYTHON LISTS
   #PYTHON TUPLES
@@ -14,16 +88,4 @@
   #PYTHON FOR LOOPS
   #PYTHON FUNCTIONS
   #PYTHON RANGE
-  #PYTHON ARRAYS
-  #PYTHON ITERATORS
-  #PYTHON MODULES
-  #PYTHON DATES
-  #PYTHON MATH
-  #PYTHON JSON
-  #PYTHON RegEx
-  #PYTHON PIP
-  #PYTHON TRY-EXCEPT
-  #PYTHON STRING-FORMATTING
-  #PYTHON NONE
-  #PYTHON USER INPUT
-  #PYTHON VIRTUAL ENVIRONMENT
+
