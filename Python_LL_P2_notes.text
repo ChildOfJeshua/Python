@@ -178,41 +178,67 @@ OUTLINE:
 
                
     STRING METHODS - a function that is associated with a particular object or class and is typically defined within a class.
-    #EXAMPLES: CAPITALIZE:
+    #EXAMPLES: CAPITALIZE: #uppercase
                txt = "Jesus is King!"
                x = txt.capitalize()
-
-               CASEFOLD:
+               
+               CASEFOLD: #lowercase
                txt = "Jesus is King!"
                x = txt.casefold
 
-               CENTER:
+               CENTER: #with padding as default added to both sides, aligning string at center.
                txt = "Jesus is King!"
                x = txt.center()
+                       #you can also insert a character:
+               x = txt.center(20, "0")
 
-               COUNT:
+               COUNT: #count the number of times the word appears
                txt = "Jesus is King!"
-               x = txt.count()
+               x = txt.count("Jesus")
+                      #you can set parameter values (value, start, end)
+               x = txt.count("Jesus", 1, 2)
 
-               ENCODE:
+               ENCODE: #convert a string into bytes using specified encoding format, w UTF-8 as default coding.
                txt = "Jesus is King!"
                x = txt.encode()
+                       #you can set a specific encoding and error check reaction
+               print(txt.encode(encoding="ascii",errors="backslashreplace"))
+               print(txt.encode(encoding="ascii",errors="ignore"))
+               print(txt.encode(encoding="ascii",errors="namereplace"))
+               print(txt.encode(encoding="ascii",errors="replace"))
+               print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
 
-               ENDSWITH:
+               ENDSWITH: #returns_true_if_it_ends_with_specific_value
                txt = "Jesus is King!"
-               x = txt.endswith()
+               x = txt.endswith("King!")
 
-               EXPANDTABS:
-               txt = "Jesus is King!"
+                         #checking positions
+               x = txt.endswith("King!", 9, 14)
+                         #checking if ends with this or that
+               x = txt.endswith(("Awesome!", "King!"))
+
+               EXPANDTABS: #returns_tab_size # '\t' for the tabs
+               txt = "J\te\ts\tu\ts\t i\ts\t K\t\t\ti\tn\tg!"
                x = txt.expandtabs()
-
-               FIND:
+               
+               FIND: #finds first occurence of specific value, returning -1 if not found. 
                txt = "Jesus is King!"
-               x = txt.find()
+               x = txt.find("Jesus")
+
+                     #specific finding attempt
+               x = txt.find("e", 5, 10)      
 
                FORMART:
                txt = "Jesus is King!"
                x = txt.format()
+
+
+
+
+
+
+
+               
 
                FORMAT MAP:
                txt = "Jesus is King!"
