@@ -85,24 +85,39 @@ OUTLINE:
                   txt = "Everyone Needs Jesus!"
                     if "Money" in txt:
                       print("Error.")
-  
-  PYTHON STRINGS_pageOne               
+                 
     SLICING STRINGS:
+    #EXAMPLES: Slice From the Start:
+                    b = "Hello World!"
+                    print(b[:5]) #Hello
+                Slice to the End:
+                    b = "Hello World!"
+                    print(b[2:]) #llo, World!
+                Negative Indexing
+                    b  = "Hello World!"
+                    print(b[-5:-2] #orl
+            
+    MODIFYING STRINGS:
+    #EXAMPLES: Upper Case:
+                  a = "Jesus is King!"
+                  print(a.upper())
+               Lower Case:
+                  b = "Jesus is still King!"
+                  print(b.lower())
+               Remove Whitespace:
+                  c = " Jesus is King! "
+                  print(c.strip())
+               Replace String:
+                  d = "Mesus is King!"
+                  print(d.replace("M", "J"))
+               Split String:
+                  e = "Jesus Saves"
+                  print(e.split(","))
     
-  #PYTHON BOOLEANS
-
-  #PYTHON DATA TYPES - classifications that define the kind of value a variable can hold and the operations that can be performed on that value.
-
-        EXAMPLES: 
-  #PYTHON OPERATORS
-  #PYTHON LISTS
-  #PYTHON TUPLES
-  #PYTHON SETS
-  #PYTHON DICTIONARIES 
-  #PYTHON IF-ELSE
-  #PYTHON MATCH
-  #PYTHON WHILE LOOPS
-  #PYTHON FOR LOOPS
-  #PYTHON FUNCTIONS
-  #PYTHON RANGE
+    CONCATENATE STRINGS - the process of joining two or more strings 
+    
+    FORMAT STRINGS:
+    ESCAPE CHARACTERS:
+    STRING METHODS:
+    
 
