@@ -267,46 +267,88 @@ OUTLINE:
                x = txt.istitle()
 
                JOIN 
+               txt = "Jesus is King!"
+               x = txt.join()
 
                L JUST
+               txt = "Jesus is King!"
+               x = txt.ljust()
 
                LOWER
+               txt = "Jesus is King!"
+               x = txt.lower()
 
                LSTRIP
+               txt = "Jesus is King!"
+               x = txt.lstrip()
 
                MAKETRANS
+               txt = "Jesus is King!"
+               x = txt.makestrans()
 
                PARTITION
+               txt = "Jesus is King!
+               x = txt.partition()
 
                REPLACE
+               txt = "Jesus is King!"
+               x = txt.replace()
 
                R-FIND
+               txt = "Jesus is King!"
+               x = txt.rfind()
 
                R-INDEX
+               txt = "Jesus is King!"
+               x = txt.rindex()
 
                R-JUST
+               txt = "Jesus is King!"
+               x = txt.rjust()
 
                R-PARTITION
+               txt = "Jesus is King!"
+               x = txt.rpartition()
 
                R-SPLIT
+               txt = "Jesus is King!"
+               x = txt.rsplit()
 
                R-STRIP
+               txt = "Jesus is King!"
+               x = txt.rstrip()
 
                SPLIT
+               txt = "Jesus is King!"
+               x = txt.split()
 
                SPLITLINES
+               txt = "Jesus is King!"
+               x = txt.splitlines()
 
                STARTSWITH
+               txt = "Jesus is King!"
+               x = txt.startswith()
 
                STRIP
+               txt = "Jesus is King!"
+               x = txt.strip()
 
                TITLE
+               txt = "Jesus is King!"
+               x = txt.title()
 
                TRANSLATE
+               txt = "Jesus is King!"
+               x = txt.translate()
 
                UPPER
+               txt = "Jesus is King!"
+               x = txt.upper()
 
                ZFILL
+               txt = "Jesus is King!"
+               x = txt.zfill()
                
     
 
