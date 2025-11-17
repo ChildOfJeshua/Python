@@ -4,7 +4,7 @@ Python - basics of the coding language, terms and more
 
     Python_LL_P1_notes.text - HOME | INTRO | GET STARTED | SYNTAX | OUTPUT | COMMENTS | VARIABLES | DATA TYPES
 
-    Python_LL_P2_notes.text - NUMBERS | CASTING | STRINGS - concurrent
+    Python_LL_P2_notes.text - NUMBERS | CASTING | STRINGS - ------------concurrent-------------------------
 
     Python_LL_P3_notes.text - BOOLEAN | OPERATORS
 
