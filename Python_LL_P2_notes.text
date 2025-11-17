@@ -102,10 +102,35 @@ OUTLINE:
                   e = "Jesus Saves"
                   print(e.split(","))
     
-    CONCATENATE STRINGS - the process of joining two or more strings 
+    CONCATENATE STRINGS - the process of joining two or more strings together to form a new string, single string.
+    #EXAMPLES: Merge through variables:
+                a = "Jesus"
+                b = "Saves"
+                c = a + b
+                print(c)
+
+               Add Space inbetween:
+               a = "Jesus"
+               b = "Saves"
+               c = a + " " + b
+               print(c)
     
-    FORMAT STRINGS:
+    FORMAT STRINGS - provides a powerful and readable way to create dynamic strings by embedding values within a template.
+    #EXAMPLES: F-STRINGS (placeholders & modifiers):
+               number = 490
+               txt = f"Jesus says forgive more than {number}"
+               print(txt)
+
+               number = 490
+               txt = f"Jesus says forgive more than {number:.2f} times"
+               print(txt)
+
+               F-STRINGS (math operations)
+               txt = f"Jesus says forgive more than {70 * 7} times"
+               print(txt)
+
     ESCAPE CHARACTERS:
+    
     STRING METHODS:
     
 
