@@ -225,12 +225,38 @@ OUTLINE:
                txt = "Jesus is King!"
                x = txt.find("Jesus")
 
-                     #specific finding attempt
+                     #specific range set up to finding element attempt
                x = txt.find("e", 5, 10)      
 
-               FORMART:
-               txt = "Jesus is King!"
-               x = txt.format()
+               FORMART: #formats specified value(s) and insert them inside the string's placeholder
+               txt = "Jesus is King {times:.2f} times!"
+               x = print(txt.format(times = 7))
+
+               #OR ONELINER(ALMOST):
+               txt1 = "{fname} is {title}".format(fname = "Jesus", title = "King")
+               txt2 = {0} is {1}".format("Jesus","King")
+               txt3 = {} is {}".format("Jesus","King")
+
+               print(txt1)
+               print(txt2)
+               print(txt3)
+              
+               
+               
+               #Left align the results with 8 spaces #follow the aligator mouth
+               txt = "Jesus is {:<8}  King."
+
+               #Right align the results with 8 spaces
+               txt = "Jesus is {:>8}  King."
+
+               #Center align the result, 4 spaces each side
+               txt = "Jesus is {:^8}  King."
+
+               #Place sign to leftmost position -------------->
+               txt = "Jesus is {:=8}  King."
+               
+
+               
 
 
 
