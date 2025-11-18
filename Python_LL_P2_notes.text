@@ -239,61 +239,83 @@ OUTLINE:
 
                print(txt1)
                print(txt2)
-               print(txt3)
-              
-               
+               print(txt3
                
                #Left align the results with 8 spaces #follow the aligator mouth
-               txt = "Jesus is {:<8}  King."
+               txt = "Jesus is {:<8}  Times THE KING."
+               print(txt.format(49))
 
                #Right align the results with 8 spaces
-               txt = "Jesus is {:>8}  King."
+               txt = "Jesus is {:>8} Times THE KING."
+               print(txt.format(49))
 
                #Center align the result, 4 spaces each side
-               txt = "Jesus is {:^8}  King."
+               txt = "Jesus is not {:^8} Times THE KING."
+               print(txt.format(49))
 
-               #Place sign to leftmost position -------------->
+               #Place sign to leftmost position #follow the aligator mouth
                txt = "Jesus is {:=8}  King."
-               
+               print(txt.format(-49))
+
+               #Place sign positive and negative   
+               txt = "Jesus is everywhere, from numbers {:+} to {:+}"
+               print(txt.format(-3,7))
+
+               #Place a negatve sign for values only
+               txt = "Jesus is everywhere, from numbers {:-} to {:-}
+               print(txt.format(-3,7))
+
+               #Place an extra space before the positive and minus sign before negative number
+               txt = "Jesus is everywhere, from numbers {: } and {: }
+               print(txt.format(-3,7))
+
+               #Place commas at the auto write places: thousand format
+               txt = "Jesus is {:,} times the Only way!"
+               print(txt.format(10000000))
+
+               #Place underscores at the auto write places: thousand format
+               txt = "Jesus is {:_} times the Only way!"
+               print(txt.format(10000000))
+
+               #The Binary Conversion of letters #Some letters go unnoticed so while ASCII is present, Unicode is superior
+               #The Computer only understands binary, so it will convert strings,integers etc using (ASCII, UTF-8)
 
                
-
-
-
-
-
-
-
-               
-
-               FORMAT MAP:
-               txt = "Jesus is King!"
-               x = txt.format_map()
-
                INDEX:
-               txt = "Jesus is King!"
-               x = txt.index()
+               #Find the index Method #same as find but returns -1, while index throws exception
+               txt = "Jesus is coming."
+               x = txt.index("is")
+               print(x)
 
                IS ALNUM:
-               txt = "Jesus is King!"
+               #Check if all characters are alphanumeric (A to Z, 0 to 9)
+               txt = "Jesus is Here!"
                x = txt.isalnum()
-
+               print(x)
+               
                IS ALPHA:
-               txt = "Jesus is King!"
+               #Check if all characters are alphabetic
+               txt = "Jesus is Here!"
                x = txt.isalpha()
+               print(x)
 
                IS ASCII:
-               txt = "Jesus is King!"
+               #Check if ascii characters
+               txt = "Jesus is Here!"
                x = txt.isascii()
+               print(x)
+
 
                IS DECIMAL:
-               txt = "Jesus is King!"
+               #Check if all characters in a string decimals (0-9)
+               txt = "Jesus is Here!"
                x = txt.isdecimal()
+               print(x)
 
                IS DIGIT:
-               txt = "Jesus is King!"
-               x = txt.isdigital()
+               #
 
+               
                IS IDENTIFIER
                txt = "Jesus is King!"
                x = txt.isidentifier()
