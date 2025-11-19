@@ -1,6 +1,6 @@
 Python - basics of the coding language, terms and more
     
-    Python_Curriculum_Breakdown.txt - Rublic of how the content is going to be broken down.
+    Python_Curriculum_Breakdown.txt - How the content is going to be broken down.
 
     Python_LL_P1_notes.text - HOME | INTRO | GET STARTED | SYNTAX | OUTPUT | COMMENTS | VARIABLES | DATA TYPES
 
