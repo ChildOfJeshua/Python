@@ -313,62 +313,100 @@ OUTLINE:
                print(x)
 
                IS DIGIT:
-               #
+               #Returns True if all the characters in string are digits
+               #txt = "Jesus is King!"
+               x =  txt.isdigit()
+               print(x)
 
                
                IS IDENTIFIER
+               #Returns True if it is an identifier 
+                  #non-reserved key words | small letter (a-z) or big letters (A-Z), underscores & numbers
                txt = "Jesus is King!"
                x = txt.isidentifier()
+               print(x)
 
                ISLOWER
+               #Returns True if all in string are lower case
                txt = "Jesus is King!"
                x = txt.isslower()
+               print(x)
 
                ISNUMERIC
+               #Returns True if all in string are numeric
                txt = "Jesus is King!"
                x = txt.isnumeric()
+               print(x)
 
                ISPRINTABLE
+               #Returns True if all in string are printable
                txt = "Jesus is King!"
                x = txt.isprintable()
+               print(x)
+               
 
                ISSPACE
+               #Returns True if character in strings are white spaces
                txt = "Jesus is King!"
                x = txt.isspace()
+               print(x)
 
                ISTITLE
+               #Returns True if string follows the rules of title
                txt = "Jesus is King!"
                x = txt.istitle()
+               print(x)
 
-               JOIN 
+               UPPER
+               #Returns True if strings are uppercase
                txt = "Jesus is King!"
-               x = txt.join()
+               x = txt.upper()
+               print(x)
+               
+               JOIN 
+               #Joins the elements of an iterable to the end of the string
+               txt = "Jesus is King!"
+               x = txt.join(target)
+               print(x)
 
                L JUST
+               #Returns a left justified version of the string
                txt = "Jesus is King!"
-               x = txt.ljust()
+               x = txt.ljust(target)
+               print(x)
 
                LOWER
+               #Return a string into lower case
                txt = "Jesus is King!"
                x = txt.lower()
+               print(x)
 
                LSTRIP
+               #Return a left trum version of the string
                txt = "Jesus is King!"
                x = txt.lstrip()
+               print(x)
 
                MAKETRANS
+               #Return a translation table to be used in translations
                txt = "Jesus is King!"
                x = txt.makestrans()
+               print(x)
 
                PARTITION
+               #Return a tuple where the string is parted into three parts
                txt = "Jesus is King!
                x = txt.partition()
+               print(x)
 
                REPLACE
+               #Return a string where a specified value is replaced with a specified value
                txt = "Jesus is King!"
                x = txt.replace()
+               print(x)
 
                R-FIND
+               #
                txt = "Jesus is King!"
                x = txt.rfind()
 
