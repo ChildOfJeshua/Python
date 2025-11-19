@@ -406,59 +406,77 @@ OUTLINE:
                print(x)
 
                R-FIND
-               #
+               #Searches the string for a specified value and returns the last position of where it was found
                txt = "Jesus is King!"
                x = txt.rfind()
 
                R-INDEX
+               #Searches the string for a specified value and returns the last position of where it was found
                txt = "Jesus is King!"
                x = txt.rindex()
 
                R-JUST
+               #Returns a right justified version of the string
                txt = "Jesus is King!"
                x = txt.rjust()
 
                R-PARTITION
+               #Returns a tuple where the string is parted into three parts
                txt = "Jesus is King!"
                x = txt.rpartition()
 
                R-SPLIT
+               #Splits the string at the specified separator, and returns a list
                txt = "Jesus is King!"
                x = txt.rsplit()
 
                R-STRIP
+               #Returns a right trim version of the string
                txt = "Jesus is King!"
                x = txt.rstrip()
 
                SPLIT
+               #Splits the string at the specified separator, and returns a list
                txt = "Jesus is King!"
                x = txt.split()
 
                SPLITLINES
+               #Splits the string at line breaks and returns a list
                txt = "Jesus is King!"
                x = txt.splitlines()
 
                STARTSWITH
+               #Returns true if the string starts with the specified value
                txt = "Jesus is King!"
                x = txt.startswith()
 
                STRIP
+               #Returns a trimmed version of the string
                txt = "Jesus is King!"
                x = txt.strip()
 
+               SWAPCASE
+               #Returns a trimmed version of the string
+               txt = "Jesus is King!"
+               x = txt.swapcase()
+               
                TITLE
+               #Converts the first character of each word to upper case
                txt = "Jesus is King!"
                x = txt.title()
 
                TRANSLATE
+               #Returns a translated string
                txt = "Jesus is King!"
                x = txt.translate()
 
                UPPER
+               #Converts a string into upper case
                txt = "Jesus is King!"
                x = txt.upper()
 
                ZFILL
+               #Fills the string with a specified number of 0 values at the beginning
                txt = "Jesus is King!"
                x = txt.zfill()
                
