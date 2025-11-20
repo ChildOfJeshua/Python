@@ -3,4 +3,82 @@ OUTLINE:
   #PYTHON BOOLEANS
   #PYTHON OPERATORS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  #PYTHON BOOLEANS -
+  #PYTHON BOOLEANS - are fundamental types that represents truth values, specifically True or False.
+    #Comparisons Evaluation
+      #print(10 > 9) #True
+      #print(10 = 9) #False
+      #print(10 < 9) #False
+  
+    #If/else statment
+        a = 200
+        b = 33
+        if b > a:
+          print("b is greater than a")
+        else:
+          print("b is not greater than a")
+  
+    #Evaluation of the bool() function to True
+      #most values return True naturally because of the existance of as such.
+        #print(bool("abc")) #True
+        #print(bool(123)) #True
+        #print(bool(["apple", "cherry", "banana"])) #True
+  
+    #Evaluation of the bool() function to False
+      #some will return False because naturally no value or technically no value.
+        #print(bool(False))
+        #print(bool(None))
+        #print(bool(0))
+        #print(bool(""))
+        #print(bool(()))
+        print(bool([]))
+        print(bool({}))
+    #Evaluation of the instance() function to True and another for False
+      #another built in function used to check if an object is an instance of a specific class or a subclass of that class
+      #x = 200
+      #print(isinstance(x, int)) #True
+
+      #x = "200"
+      #print(isinstance(x, str)) #False
+
+    #Class calling and evaluation to False
+      #class myclass():
+        #def _len_(self):
+          #return 0 
+      #myobj = myclass()
+      #print(bool(myobj))
+      
+    #Class calling and evaluation to True
+    def myfunction():
+      return True
+    print(myFunction())
+    
+    OR
+    
+    def myfunction():
+      return True
+    if myFunction():
+      print("YES!")
+    else:
+      print("NO!")
+    
+    
+   #PYTHON OPERATORS - special symbols, combinations of symbols, or keywords that designate a specific computation to be performed on one or more operands.
+     #Arithmetic - used commonly with numeric values to perform common mathematical operations
+     
+     #Assignment - used to assign values to variables
+     
+     #Comparison - used to compare two values
+     
+     #Logical - used to combine conditional statments 
+     
+     #Identify - compare objects (not for equality. Same object with same memory location)
+       #In Python: String Interning:
+         #If two string literals are identical, Python may reuse the same memory location for both.
+     
+     #Membership - used to test if a sequence is presented in an object
+     
+     #Bitwise - used to compare binary numbers
+
+     #Precedence - describes the order in which operations are performed. 
+
+     
