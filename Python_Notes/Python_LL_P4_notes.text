@@ -1,3 +1,225 @@
 PYTHON LEARNING LANGUAGE PART 4
 OUTLINE:
-  #
+  #PYTHON LISTS
+  #PYTHON TUPLES
+  #PYTHON SETS
+  #PYTHON DICTIONARIES
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #PYTHON LITS - is a collection, using sqare breackets, which ordered(adding to list adds to end) and changeable. Allows duplicate members.
+    #ALLOW DUPLICATES
+      thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+      print(thislist)
+    #LIST LENGTH
+      thislist = ["apple", "banana", "cherry"]
+      print(len(thislist))
+    #DATA TYPES
+      list1 = ["apple", "banana", "cherry"]
+      list2 = [1, 5, 7, 9, 3]
+      list3 = [True, False, False]
+
+      OR
+      mylist = ["apple", "banana", "cherry"]
+      print(type(mylist))
+      
+    #LIST CONSTRUCTOR(special method called when object created)
+      thislist = list(("apple", "banana", "cherry"]
+      print(type(mylist))
+      
+    #ACCESS ITEMS (reffering to index numbers)
+      thislist = list(("apple", "banana", "cherry"]      
+      print(thislist[1])
+    
+    #NEGATIVE INDEXING (start from the end)
+      thislist = list(("apple", "banana", "cherry"]
+      print(thislist[-1])
+    
+    #RANGE OF INDEXES (specified and assumed)
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+      print(thislist[2:5])
+
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+      print(thislist[-4:-1])
+
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+      print(thislist[2:])
+
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+      print(thislist[:4])
+    
+    #EXISTANCE using in - (check if item present in a list)
+      thislist = ["apple", "banana", "cherry"]
+      if "apple" in thislist:
+        print("Yes, 'apple' is in the fruits list")
+    
+    #CHANGE ITEMS (an item, a range, and insert items)
+      
+      thislist = ["apple", "banana", "cherry"]
+      thislist[1] = "blackcurrant"
+          print(thislist)
+
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+      thislist[1:3] = ["blackcurrant", "watermelon"]
+          print(thislist)
+
+    #ADD ITEMS (add, extend)
+      thislist = ["apple", "banana", "cherry"]
+      thislist.insert(2, "watermelon")
+          print(thislist)
+
+      thislist = ["apple", "banana", "cherry"]
+      tropical = ["mango", "pineapple", "papaya"]
+      thislist.extend(tropical)
+          print(thislist)
+
+      YOU CAN ADD TUPLE/DICTS/SETS:
+      thislist = ["apple", "banana", "cherry"]
+      thistuple = ("kiwi", "orange")
+      thislist.extend(thistuple)
+          print(thislist)
+
+    #REMOVE ITEMS (Specific, clear)
+    thislist = ["apple", "banana", "cherry"]
+    thislist.remove("banana")
+          print(thislist)
+
+    OR
+
+    thislist = ["apple", "banana", "cherry"]
+    thislist.pop(1)
+          print(thislist)
+
+    OR POP off just the last item:
+    thislist = ["apple", "banana", "cherry"]
+    thislist.pop()
+          print(thislist)
+
+    OR del with an idex as just del removes just the inner content:
+    thislist = ["apple", "banana", "cherry"]
+    del thislist
+
+    Clear the list:
+    thislist = ["apple", "banana", "cherry"]
+    thislist.clear()
+        print(thislist)
+    
+    #LOOP LISTS
+      #their values one by one:
+        thislist = ["apple", "banana", "cherry"]
+        for x in thislist:
+          print(x)
+      
+      #their index numbers:
+        thislist = ["apple", "banana", "cherry"]
+        for i in range(len(thislist)):
+          print(thislist[i])
+     
+      #using list comprehension:
+      thislist = ["apple", "banana", "cherry"]
+         [print(x) for x in thislist]
+
+    
+    #WHILE LOOP LIST
+      thislist = ["apple", "banana", "cherry"]
+      i = 0
+      while i < len(thislist):
+        print(thislist[i])
+        i = i + 1
+  
+    #LIST COMPREHENSION (shorter syntax, meant to create a new list based on values of an existing list)
+      
+      fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+      
+      newlist = [x for x in fruits if "a" in x]
+      
+      print(newlist)
+    
+    #SORT LISTS (alphabetically, numerically, sort decending)
+        thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+        thislist.sort()
+        print(thislist)
+        
+        thislist = [100, 50, 65, 82, 23]
+        thislist.sort()
+        print(thislist)
+
+        thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+        thislist.sort(reverse = True)
+        print(thislist)
+
+    #CUSTOM SORT FUNCTION (Case Insensitive Sort, Reverse Order)
+      #based on how close it is to 50
+        def myfunc(n):
+          return abs(n - 50)
+      
+        thislist = [100, 50, 65, 82, 23]
+        thislist.sort(key = myfunc)
+        print(thislist)
+
+        thislist = ["banana", "Orange", "Kiwi", "cherry"]
+        thislist.sort()
+        print(thislist)
+
+        #case insensitive sort of list:
+        thislist = ["banana", "Orange", "Kiwi", "cherry"]
+        thislist.sort(key = str.lower)
+        print(thislist)
+
+        #regardless of alphabet:
+        thislist = ["banana", "Orange", "Kiwi", "cherry"]
+        thislist.reverse()
+        print(thislist)
+        
+      #COPY LISTS: (copy() method, list() method, slice operator)
+        thislist = ["apple", "banana", "cherry"]
+        mylist = thislist.copy()
+        print(mylist)
+
+        OR 
+
+        thislist = ["apple", "banana", "cherry"]
+        mylist = list(thislist)
+        print(mylist)
+
+        OR
+        thislist = ["apple", "banana", "cherry"]
+        mylist = thislist[:]
+        print(mylist)
+        
+      #JOIN LISTS (+ operator, append all items from list2 to list1, extend() method)
+        list1 = ["a", "b", "c"]
+        list2 = [1, 2, 3]
+        
+        list3 = list1 + list2
+        print(list3)
+
+        OR 
+        
+        list1 = ["a", "b" , "c"]
+        list2 = [1, 2, 3]
+        
+        for x in list2:
+          list1.append(x)
+        
+        print(list1)
+
+        OR 
+
+        list1 = ["a", "b" , "c"]
+        list2 = [1, 2, 3]
+        
+        list1.extend(list2)
+        print(list1)
+      #lISTS METHODS:
+        #APPEND - adds an element at the end of the list
+        #CLEAR - removes all elements from the list
+        #COPY - returns a copy of the list
+        #COUNT - returns the number of elements with the specified value
+        #EXTEND - add the elements of a list (or any iterable), to the end of the current list
+        #INDEX - returns the index of the first element with the specified value
+        #INSERT - adds an element at the specified position
+        #POP - removes the elements at the specified position
+        #REMOVE - removes the item with the specified value
+        #REVERSE - reverses the order of the list
+        #SORT - Sorts the lists
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #PYTHON TUPLES - is a collection which is ordered and unchangeable. Allows duplicate members.
