@@ -64,21 +64,79 @@ OUTLINE:
     
    #PYTHON OPERATORS - special symbols, combinations of symbols, or keywords that designate a specific computation to be performed on one or more operands.
      #Arithmetic - used commonly with numeric values to perform common mathematical operations
+       #addition: x + y
+       #substraction: x - y
+       #multiplication: x * y
+       #division: x / y
+       #modulus: x % y
+       #exponentiation: x^^y
+       #floor_division: x//y
      
      #Assignment - used to assign values to variables
+       #x = 3
+       #x = x + 3 or x+= 3
+       #x = x - 3 or x-= 3
+       #x = x * 3 or x*= 3
+       #x = x / 3 or x/= 3
+       #x = x % 3 or x %= 3
+       #x = x // 3 or x //= 3
+       #x = x ** 3 or x**= 3
+       #x = x & 3 or x &= 3
+       #x = x | 3 or x |= 3
+       #x = x ^ 3 or x^= 3
+       #x = x >> 3 or x >>= 3
+       #x = x << 3 or x <<= 3
+       #print(x:=3) or x = 3 
+                       print(3)
      
      #Comparison - used to compare two values
-     
+     #x == y
+     #x != y
+     #x > y
+     #x < y
+     #x >= y
+     #x <= y
+    
      #Logical - used to combine conditional statments 
-     
+     and: x < 5 and x < 10
+     or: x < 5 or x < 4
+     not: not(x < 5 and x < 10)
+
      #Identify - compare objects (not for equality. Same object with same memory location)
        #In Python: String Interning:
          #If two string literals are identical, Python may reuse the same memory location for both.
+       
+       is: x is y - returns True if both variables are the same object
+       is not: x is not y returns True if both variables are not the same object
      
      #Membership - used to test if a sequence is presented in an object
+         [Variables hold a reference to an object that is an instance of a class]
+         
+      in: x in y - returns True if a sequence with specified value is present in the object. 
+      not in: x not in y - returns True if a sequence with specified value is not present in object.
      
      #Bitwise - used to compare binary numbers
+      AND: x & y - sets each bit to 1 if both bits are 1
+      OR: x | y -  sets bit to 1 if one of two bits is 1
+      XOR: x ^ y - sets each bit to 1 if only one of two bits is 1
+      NOT: ~x -  inverts all the bits
+      ZERO FILL LEFT SHIFT: << - shift left by pushing zeros in from the right and let the leftmost bits fall off.
+      SIGNED RIGHT SHIFT: >> - shift right by pushing copies of the leftmost bits from the left, and let thr rightmost bits fall off
 
      #Precedence - describes the order in which operations are performed. 
+       PARENTHESIS: ()
+       EXPONENTIATION: **
+       UNARY PLUS, UNARY MINUS, AND BITWISE NOT: +x, -x, ~x
+       MULTIPLICATION, DIVISION, FLOOR DIVISION AND MODULUS: *, /, //, %
+       ADDITION AND SUBSTRACTION: +, - 
+       BITWISE LEFT AND RIGHT SHIFTS: <<, >>
+       BITWISE AND: &
+       BITWISE XOR: ^
+       BITWISE OR: |
+       COMPARISONS, IDENTITY, AND MEMBERSHIP OPERATORS: ==, !=, >, >=, <, <=, is, is not, in, not in
+       LOGICAL NOT: not
+       AND: and 
+       OR: or
+    
 
      
