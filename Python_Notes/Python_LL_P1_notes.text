@@ -20,8 +20,9 @@ OUTLINE:
           # - AUTOMATION AND SCRIPTING (Tasks like File Processing, DevOps)
           # - PROTOTYPING AND RAPID APPLICATION DEVELOPMENT 
           # - EDUCATIONAL CONTEXTS (BEGINNER-FRIENDLY)
-          # - WINDOWS/MAC/LINUX/RASPBERRY PI
-          
+          # - WINDOWS/MAC/LINUX/RASPBERRY 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      
   #PYTHON GET STARTED
       Python Editor - software application used to wrtie, edit, and manage Python code
         #Check the Python Version of the editor:
@@ -34,7 +35,8 @@ OUTLINE:
         ```
         exit()
         ```
-        
+   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       
   #PYTHON SYNTAX
       #Syntax - refers to the set of rules that define how code must be structured and organized so that the Python interpreter can understand and execute it correctly.
           
@@ -45,6 +47,7 @@ OUTLINE:
           EXAMPLES: function, conditional statments, for/while loops, class definitions, try-execept blocks, with statements, 
                     nested indentation, list/dict/set comprehensions, match case, lambda functions, generator expressions,
                     async functions, async for/with, decorators, type hits with multi line, walrus operators in blocks, & assertion statments.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
           
         #Python Variables - symbolic names that refer to objects or values stored in memory, acting as containers for data that can be referenced and manipulated during program execution.
           
@@ -90,7 +93,8 @@ OUTLINE:
                     yield statement, 
                     async and await statements,
                     match statement (Python 3.10+)
-  
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
   #PYTHON OUTPUT - information or result produced by a program, typically displayed to the user or sent to a specific destination such as the screen or file.
         
         EXAMPLES: Print statements: (Basic Print, Multiple Arguments, Custom Seperator, Custom End Character, Print to File, Flush Output)
@@ -113,6 +117,7 @@ OUTLINE:
                   Email Output: (smtplib)
                   Network Output (Socket): (import socket)
                   Pickle Output (Serialization): import pickle
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   #PYTHON DATA TYPES - classifications that define the kind of value a variable can hold and the operations that can be performed on that value.
 
