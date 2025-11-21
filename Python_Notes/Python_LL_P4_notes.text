@@ -223,7 +223,31 @@ OUTLINE:
         #SORT - Sorts the lists
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON TUPLES - is a collection which is ordered and unchangeable. Allows duplicate members.
-      #ALLOW DUPLICATES
+      #EXAMPLE:
+        #thistuple = ("apple", "banana", "cherry")
+        print(thistuple)
+      
+      #Allow Duplicate:
+        thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+        print(thistuple)
+
+      #Tuple Length:
+        thistuple = ("apple", "banana", "cherry")
+        print(len(thistuple))
+
+      #One item Tuple:
+      thistuple = ("apple",)
+      print(type(thistuple))
+      
+      #NOT a tuple
+      thistuple = ("apple")
+      print(type(thistuple))
+
+      #Data Type: Tuple:
+      tuple1 = ("apple", "banana", "cherry")
+      tuple2 = (1, 5, 7, 9, 3)
+      tuple3 = (True, False, False)
+              
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON SET - is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
