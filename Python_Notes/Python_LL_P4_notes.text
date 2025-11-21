@@ -247,7 +247,17 @@ OUTLINE:
       tuple1 = ("apple", "banana", "cherry")
       tuple2 = (1, 5, 7, 9, 3)
       tuple3 = (True, False, False)
-              
+
+      OR
+
+      mytuple = ("apple", "banana", "cherry")
+      print(type(mytuple))
+
+      #Tuple Constructor
+        #Use a Tuple method to make a tuple
+      thistuple = tuple(("apple", "banana", "cherry"))
+      print(thistuple)
+      
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON SET - is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
