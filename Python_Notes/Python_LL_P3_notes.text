@@ -61,7 +61,8 @@ OUTLINE:
     else:
       print("NO!")
     
-    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
    #PYTHON OPERATORS - special symbols, combinations of symbols, or keywords that designate a specific computation to be performed on one or more operands.
      #Arithmetic - used commonly with numeric values to perform common mathematical operations
        #addition: x + y
@@ -137,6 +138,8 @@ OUTLINE:
        LOGICAL NOT: not
        AND: and 
        OR: or
-    
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
      
