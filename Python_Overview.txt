@@ -8,39 +8,39 @@ PYTHON LEARNING LANGUAGE
   #PYTHON COMMENTS
   #PYTHON VARIABLES
   #PYTHON DATA TYPES
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P2_Outline
   #PYTHON NUMBERS
   #PYTHON CASTING
   #PYTHON STRINGS
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P3_Outline
   #PYTHON BOOLEANS
   #PYTHON OPERATORS
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P4_Outline
   #PYTHON LISTS
   #PYTHON TUPLES
   #PYTHON SETS
   #PYTHON DICTIONARIES 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P5_Outline
   #PYTHON IF-ELSE
   #PYTHON MATCH
   #PYTHON WHILE LOOPS
   #PYTHON FOR LOOPS
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P6_Outline
   #PYTHON FUNCTIONS
   #PYTHON RANGE
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P7_Outline
   #PYTHON ARRAYS
   #PYTHON ITERATORS
   #PYTHON MODULES
   #PYTHON DATES
   #PYTHON MATH
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P8_Outline
   #PYTHON JSON
   #PYTHON RegEx
@@ -48,10 +48,10 @@ PYTHON LEARNING LANGUAGE
   #PYTHON TRY-EXCEPT
   #PYTHON NONE
   #PYTHON USER INPUT
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Python_LL_P9_Outline
   #PYTHON VIRTUAL ENVIRONMENT
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #PYTHON CLASSES
   #PYTHON OOP
   #PYTHON CLASSES/OBJECTS
@@ -63,19 +63,19 @@ PYTHON LEARNING LANGUAGE
   #PYTHON POLYMORPHISM
   #PYTHON ENCAPSULATION 
   #PYTHON INNER CLASS
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #FILE HANDLING 
   #PYTHON FILE HANDLING
   #PYTHON READ FILES
   #PYTHON WRITE/CREATE FILES
   #PYTHON DELETE FILES
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #PYTHON MODULES
   #NUMPY TUTORIAL
   #PANDAS TUTORIAL
   #SCIPY TUTORIAL
   #DJANGO TUTORIAL
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #PYTHON MATPLOTLIB
   #Matplotlib Intro
   #Matplotlib Get Started
@@ -90,7 +90,7 @@ PYTHON LEARNING LANGUAGE
   #Matplotlib Bars
   #Matplotlib Histograms
   #Matplotlib Pie Charts
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #MACHINE LEARNING
   Getting Started
   Mean Median Mode
@@ -115,7 +115,7 @@ PYTHON LEARNING LANGUAGE
   Cross Validation
   AUC - ROC Curve
   K-nearest neighbors
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #PYTHON DSA - Data Structures & Algorithms
   Python DSA
   Lists and Arrays
@@ -137,7 +137,7 @@ PYTHON LEARNING LANGUAGE
   Counting Sort
   Radix Sort
   Merge Sort
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #PYTHON SQL 
   MySQL Get Started
   MySQL Create Database
@@ -151,7 +151,7 @@ PYTHON LEARNING LANGUAGE
   MySQL Update
   MySQL Limit
   MySQL Join
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #PYTHON MONGODB
   MongoDB Get Started
   MongoDB Create DB
@@ -164,8 +164,7 @@ PYTHON LEARNING LANGUAGE
   MongoDB Drop Collection
   MongoDB Update
   MongoDB Limit
-
-  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 Source: https://www.w3schools.com/python/default.asp
 
 
