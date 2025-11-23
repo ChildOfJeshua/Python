@@ -1,9 +1,9 @@
 PYTHON LEARNING LANGUAGE PART 4
 OUTLINE:
-  #PYTHON LISTS
-  #PYTHON TUPLES
-  #PYTHON SETS
-  #PYTHON DICTIONARIES
+  #PYTHON LISTS - []
+  #PYTHON TUPLES - ()
+  #PYTHON SETS - {}
+  #PYTHON DICTIONARIES {key: value}
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON LITS - is a collection, using sqare breackets, which ordered(adding to list adds to end) and changeable. Allows duplicate members.
     #ALLOW DUPLICATES
@@ -385,6 +385,195 @@ OUTLINE:
       print(x)
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON SET - is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+  
+  thisset = {"apple", "banana", "cherry"}
+  print(thisset)
+
+  #Duplicates are ignored
+  thisset = {"apple", "banana", "cherry", "apple"}
+  print(thisset)
+
+  OR: 'True and 1 are the same value, False and 0 are the same value'
+  
+  thisset = {"apple", "banana", "cherry", True, 1, 2}
+  print(thisset)
+
+  #Length of a Set
+  thisset = {"apple", "banana", "cherry"}
+
+  print(len(thisset))
+
+  #Data Types
+  set1 = {"apple", "banana", "cherry"}
+  set2 = {1, 5, 7, 9, 3}
+  set3 = {True, False, False}
+
+  OR Data Type through class
+  myset = {"apple", "banana", "cherry"}
+  print(type(myset))
+
+  #Set Constructor:
+  thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
+  print(thisset)
+
+
+  #For Loop
+  thisset = {"apple", "banana", "cherry"}
+
+  for x in thisset:
+    print(x)
+
+  #Check if item exists:
+  thisset = {"apple", "banana", "cherry"}
+  print("banana" in thisset)
+
+  #Add items
+  thisset = {"apple", "banana", "cherry"}
+  thisset.add("orange")
+  print(thisset)
+
+  #Add Sets:
+  thisset = {"apple", "banana", "cherry"}
+  tropical = {"pineapple", "mango", "papaya"}
+  thisset.update(tropical)
+  print(thisset)
+
+  #Add tuples,list,dictionaries
+  thisset = {"apple", "banana", "cherry"}
+  mylist = ["kiwi", "orange"]
+  thisset.update(mylist)  
+  print(thisset)
+
+  #Remove Set Items
+  thisset = {"apple", "banana", "cherry"} 
+  thisset.remove("banana")
+  print(thisset)
+
+  #Cleaner cut
+  thisset = {"apple", "banana", "cherry"}
+  thisset.discard("banana")
+  print(thisset)
+
+  thisset = {"apple", "banana", "cherry"}
+  x = thisset.pop()
+  print(x)
+  print(thisset)
+
+  #Remove random item
+  thisset = {"apple", "banana", "cherry"}
+  x = thisset.pop()
+  print(x)  
+  print(thisset)
+
+  #Clear empties the set
+  thisset = {"apple", "banana", "cherry"}
+  thisset.clear()
+  print(thisset)
+
+  #Delete set completely
+  thisset = {"apple", "banana", "cherry"}
+  del thisset
+  print(thisset)
+
+  #Loop Sets:
+  thisset = {"apple", "banana", "cherry"}
+  
+  for x in thisset:
+    print(x)
+
+  #Union Sets
+  set1 = {"a", "b", "c"}
+  set2 = {1, 2, 3}
+  
+  set3 = set1.union(set2)
+  print(set3)
+
+  OR:
+  set1 = {"a", "b", "c"}
+  set2 = {1, 2, 3}
+  
+  set3 = set1 | set2
+  print(set3)
+
+  OR Multiple Sets:
+  set1 = {"a", "b", "c"}
+  set2 = {1, 2, 3}
+  set3 = {"John", "Elena"}
+  set4 = {"apple", "bananas", "cherry"}
+  
+  myset = set1.union(set2, set3, set4)
+  print(myset)
+
+  #Set plus a Tuple
+  x = {"a", "b", "c"}
+  y = (1, 2, 3)
+  
+  z = x.union(y)
+  print(z)
+
+  #Insert items from 2 to 1
+  set1 = {"a", "b" , "c"}
+  set2 = {1, 2, 3}
+  
+  set1.update(set2)
+  print(set1)
+
+  #Intersection: present in both sets
+  set1 = {"apple", "banana", "cherry"}
+  set2 = {"google", "microsoft", "apple"}
+  
+  set3 = set1.intersection(set2)
+  print(set3)
+
+  #Difference (Present in first list but not in second)
+  set1 = {"apple", "banana", "cherry"}
+  set2 = {"google", "microsoft", "apple"}
+  set3 = set1.difference(set2)
+  print(set3)
+
+  #SymmetricDifference (elements not present in both sets)
+  set1 = {"apple", "banana", "cherry"}
+  set2 = {"google", "microsoft", "apple"}
+  set3 = set1.symmetric_difference(set2)
+  print(set3)
+
+  #FrozenSets: immutable version of a set (They cannot be changed at all)
+  x = frozenset({"apple", "banana", "cherry"})
+  print(x)
+  print(type(x))
+
+  FrozenSets Methods:
+  copy() - return shallow copy
+  difference() - return a new frozenset with the difference '-'
+  intersection() - return a new frozenset with the intersection '&'
+  isdisjoint() - returns whether two frozensets have an intersection 
+  issubset() - Returns True if this frozenset is a (proper) subset of another '<= / <'
+  issuperset() - Returns True if this frozenset is a (proper) superset of another	'>=/>'
+  symmetric_difference() - Returns a new frozenset with the symmetric differences	'^'
+  union() - Returns a new frozenset containing the union '|'
+
+
+  Set Methods:
+  add() - adds an element to the set
+  clear() - removes all elements from the set
+  copy() - return shallow copy
+  difference() - 	Returns a set containing the difference between two or more sets '-'
+  difference_update() - Removes the items in this set that are also included in another, specified set '-=' 
+  discard() - Remove the specified item 
+  intersection() - Returns a set, that is the intersection of two other sets '&'
+  intersection_update() - Removes the items in this set that are not present in other, specified set(s) '&='
+  isdisjoint() - Returns whether two sets have a intersection or not
+  issubset() - Returns True if all items of this set is present in another set '<=' 
+               Returns True if all items of this set is present in another, larger set '<'
+               
+  issuperset() - Returns True if all items of another set is present in this set	'>='
+                 Returns True if all items of another, smaller set is present in this set '>'
+  pop() - Removes an element from the set
+  remove() - Removes the specified element
+  symmetric_difference() - Returns a set with the symmetric differences of two sets '^'
+  symmetric_difference_update() -Inserts the symmetric differences from this set and another '^='
+  union() - Return a set containing the union of sets '|'
+  update() - Update the set with the union of this set and others '|='
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON DICTIONARIES - is a collection which is ordered** and changeable. No duplicate members.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
