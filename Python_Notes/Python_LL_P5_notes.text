@@ -1,10 +1,284 @@
 #Python_LL_P5_Outline
 OUTLINE:
   #PYTHON IF-ELSE
+  #Simple Statement
+  a = 33
+  b = 200
+  if b > a:
+  print("b is greater than a")
+
+  OR
+  number = 15
+  if number > 0:
+    print("The number is positive")
+
+  #Multiple Statments
+  age = 20
+  if age >= 18:
+    print("You are an adult")
+    print("You can vote")
+    print("You have full legal rights")
+
+  #Using Variables
+  is_logged_in = True
+  if is_logged_in:
+    print("Welcome back!")
+
+  #Python Elif #Like an if but only after not satisfying the first natural if
+  a = 33
+  b = 33
+  if b > a:
+    print("b is greater than a")
+  elif a == b:
+    print("a and b are equal")
+
+  OR
+  score = 75
+  if score >= 90:
+    print("Grade: A")
+  elif score >= 80:
+    print("Grade: B")
+  elif score >= 70:
+    print("Grade: C")
+  elif score >= 60:
+    print("Grade: D")
+
+  #Python Else - catches anything which isn't caught by the preceding conditions or servers as a fallback
+  a = 200
+  b = 33
+  if b > a:
+    print("b is greater than a")
+  elif a == b:
+    print("a and b are equal")
+  else:
+    print("a is greater than b")
+
+  OR
+  username = "Emil"
+
+  if len(username) > 0:
+    print(f"Welcome, {username}!")
+  else:
+    print("Error: Username cannot be empty")
+
+  #Python Shorthand if: one statement to execute, you can put it on the same line as the if statement.
+  a = 5
+  b = 2
+  if a > b: print("a is greater than b")
+
+  #Short Hand if..Else
+  a = 2
+  b = 330
+  print("A") if a > b else print("B")
+
+  #Assign a Value With if..Else
+  a = 10
+  b = 20
+  bigger = a if a > b else b
+  print("Bigger is", bigger)
+
+  #Multiple Conditions on One Line
+  a = 330
+  b = 330
+  print("A") if a > b else print("=") if a == b else print("B")
+
+  #If..Else & Logical Operators
+  #AND Operator
+  a = 200
+  b = 33
+  c = 500
+  if a > b and c > a:
+    print("Both conditions are True")
+
+  #OR Operator
+  a = 200
+  b = 33
+  c = 500
+  if a > b or a > c:
+    print("At least one of the conditions is True")
+
+  #NOT Operator
+  a = 33
+  b = 200
+  if not a > b:
+    print("a is NOT greater than b")
+
+  #Combining Multiple Operators
+  age = 25
+  is_student = False
+  has_discount_code = True
+  
+  if (age < 18 or age > 65) and not is_student or has_discount_code:
+    print("Discount applies!")
+  
+  
+  #Nested Ifs
+  x = 41
+  if x > 10:
+    print("Above ten,")
+    if x > 20:
+      print("and also above 20!")
+    else:
+      print("but not above 20.")
+
+  #Three Levels of nesting:
+  score = 85
+  attendance = 90
+  submitted = True
+  if score >= 60:
+    if attendance >= 80:
+      if submitted:
+        print("Pass with good standing")
+      else:
+        print("Pass but missing assignment")
+    else:
+      print("Pass but low attendance")
+  else:
+    print("Fail")
+
+#Nested ifs and Logical Operators
+temperature = 25
+is_sunny = True
+
+if temperature > 20 and is_sunny:
+  print("Perfect beach weather!")
+
+#Pass statement - if you want to leave an if statment with no content, pass statment is used to avoid getting an error
+  a = 33
+  b = 200
+  
+  if b > a:
+    pass
+
+def calculate_discount(price):
+  pass # TODO: Implement discount logic
+
+# Function exists but doesn't do anything yet
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON MATCH
+  #A match statement is used to perform different actions based on different conditions or case
+  day = 4
+  match day:
+    case 1:
+      print("Monday")
+    case 2:
+      print("Tuesday")
+    case 3:
+      print("Wednesday")
+    case 4:
+      print("Thursday")
+    case 5:
+      print("Friday")
+    case 6:
+      print("Saturday")
+    case 7:
+      print("Sunday")
+
+  OR:
+  month = 5
+  day = 4
+  match day:
+    case 1 | 2 | 3 | 4 | 5 if month == 4:
+      print("A weekday in April")
+    case 1 | 2 | 3 | 4 | 5 if month == 5:
+      print("A weekday in May")
+    case _:
+      print("No match")
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON WHILE LOOPS
+  #Set of statments get executed as long as condittion is true
+
+  i = 1
+  while i < 6:
+    print(i)
+    i += 1
+
+  #Using Break statment: we can stop the loop even if condition is true
+  i = 1
+  while i < 6:
+    print(i)
+    if i == 3:
+      break
+    i += 1
+
+  #Continue statment will stop at the i, and continue with the rest or stop at 3 and continue for the rest '12456'
+  i = 0
+  while i < 6:
+    i += 1
+    if i == 3:
+      continue
+    print(i)
+    
+  #The else statement: we can run a block of code when the condition is no longer true.
+  i = 1
+  while i < 6:
+    print(i)
+    i += 1
+  else:
+    print("i is no longer less than 6")
+  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON FOR LOOPS
+  #we can execute a set of statments, once for each item in a list,tuple,set,dict etc.
+
+  #Through a List:
+  fruits = ["apple", "banana", "cherry"]
+  for x in fruits:
+    print(x)
+
+  #Through a String:
+  for x in "banana":
+  print(x)
+
+  #Break Statement: stop the loop maybe mid way before it completes loop
+  fruits = ["apple", "banana", "cherry"]
+  for x in fruits:
+    print(x)
+    if x == "banana":
+      break
+      
+  #Continue Statment: stop current iteration of the loop, continue on the net
+  fruits = ["apple", "banana", "cherry"]
+  for x in fruits:
+    if x == "banana":
+      continue
+    print(x)
+
+  #range function
+  for x in range(6):
+    print(x)
+
+  #Start Parameter
+  for x in range(2, 6):
+    print(x)
+
+  #Increment the sequence with 3(default is 1)
+  for x in range(2, 30, 3):
+    print(x)
+
+  #Else in For Loop
+  for x in range(6):
+    print(x)
+  else:
+    print("Finally finished!")
+
+  #Else in For Loop with a break:
+  for x in range(6):
+    if x == 3: break
+    print(x)
+  else:
+    print("Finally finished!")
+
+  #Nested Loops:
+  #Inner loop will be executed one time for each iteration of the outer loop
+  adj = ["red", "big", "tasty"]
+  fruits = ["apple", "banana", "cherry"]
+  
+  for x in adj:
+    for y in fruits:
+      print(x, y)
+
+#Pass statment & loop
+  for x in [0, 1, 2]:
+    pass
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
