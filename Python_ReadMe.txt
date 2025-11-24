@@ -6,8 +6,8 @@ Python - basics of the coding language, terms and more
     Python_LL_P2_notes - NUMBERS | CASTING | STRINGS
     Python_LL_P3_notes - BOOLEAN | OPERATORS
     Python_LL_P4_notes - LISTS | TUPLES | SETS | DICTIONARIES
-    Python_LL_P5_notes - IF-ELSE | MATCH | WHILE LOOPS | FOR LOOPS ------------concurrent-------------------------
-    Python_LL_P6_notes - FUNCTIONS | RANGE
+    Python_LL_P5_notes - IF-ELSE | MATCH | WHILE LOOPS | FOR LOOPS
+    Python_LL_P6_notes - FUNCTIONS | RANGE ------------concurrent-------------------------
     Python_LL_P7_notes - ARRAYS | ITERATORS | MODULES | DATES | MATH
     Python_LL_P8_notes - JSON | RegEx | PIP | TRY-EXCEPT | NONE | USER INPUT
     Python_LL_P9_notes - OOP | CLASSES/OBJECTS | -INIT_METHOD | self PARAMETER | Class Properties | Class Methods | INHERITANCE | POLYMORPHISM | ENCAPSULATION| INNER CLASS 
