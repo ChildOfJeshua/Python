@@ -49,7 +49,7 @@ PYTHON LEARNING LANGUAGE
   #PYTHON NONE
   #PYTHON USER INPUT
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#PPython_LL_P9_notes
+#Python_LL_P9_notes
 #PYTHON CLASSES
   #PYTHON OOP
   #PYTHON CLASSES/OBJECTS
@@ -62,25 +62,27 @@ PYTHON LEARNING LANGUAGE
   #PYTHON ENCAPSULATION 
   #PYTHON INNER CLASS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 PYTHON NOTES EXTENDED:
-#Python_LL_P4_Notex_Extended_P1
+Python_Notes_Extended_P1
 #PYTHON VIRTUAL ENVIRONMENT
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P2
+Python_Notes_Extended_P2
 #FILE HANDLING 
   #PYTHON FILE HANDLING
   #PYTHON READ FILES
   #PYTHON WRITE/CREATE FILES
   #PYTHON DELETE FILES
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P3
+Python_Notes_Extended_P3
 #PYTHON MODULES
   #NUMPY TUTORIAL
   #PANDAS TUTORIAL
   #SCIPY TUTORIAL
   #DJANGO TUTORIAL
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P4
+Python_Notes_Extended_P4
 #PYTHON MATPLOTLIB
   #Matplotlib Intro
   #Matplotlib Get Started
@@ -96,7 +98,7 @@ Python_LL_P4_Notex_Extended_P4
   #Matplotlib Histograms
   #Matplotlib Pie Charts
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P5
+Python_Notes_Extended_P5
 #MACHINE LEARNING
   Getting Started
   Mean Median Mode
@@ -122,7 +124,7 @@ Python_LL_P4_Notex_Extended_P5
   AUC - ROC Curve
   K-nearest neighbors
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P6
+Python_Notes_Extended_P6
 #PYTHON DSA - Data Structures & Algorithms
   Python DSA
   Lists and Arrays
@@ -145,7 +147,7 @@ Python_LL_P4_Notex_Extended_P6
   Radix Sort
   Merge Sort
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P7
+Python_Notes_Extended_P7
 #PYTHON SQL 
   MySQL Get Started
   MySQL Create Database
@@ -160,7 +162,7 @@ Python_LL_P4_Notex_Extended_P7
   MySQL Limit
   MySQL Join
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Python_LL_P4_Notex_Extended_P8
+Python_Notes_Extended_P8
 #PYTHON MONGODB
   MongoDB Get Started
   MongoDB Create DB
