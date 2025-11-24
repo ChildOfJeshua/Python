@@ -1,5 +1,5 @@
 PYTHON LEARNING LANGUAGE
-#Python_LL_P1_Outline
+#Python_LL_P1_notes
   #PYTHON HOME
   #PYTHON INTRO
   #PYTHON GET STARTED
@@ -9,39 +9,39 @@ PYTHON LEARNING LANGUAGE
   #PYTHON VARIABLES
   #PYTHON DATA TYPES
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P2_Outline
+#Python_LL_P2_notes
   #PYTHON NUMBERS
   #PYTHON CASTING
   #PYTHON STRINGS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P3_Outline
+#Python_LL_P3_notes
   #PYTHON BOOLEANS
   #PYTHON OPERATORS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P4_Outline
+#Python_LL_P4_notes
   #PYTHON LISTS
   #PYTHON TUPLES
   #PYTHON SETS
   #PYTHON DICTIONARIES 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P5_Outline
+#Python_LL_P5_notes
   #PYTHON IF-ELSE
   #PYTHON MATCH
   #PYTHON WHILE LOOPS
   #PYTHON FOR LOOPS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P6_Outline
+#Python_LL_P6_notes
   #PYTHON FUNCTIONS
   #PYTHON RANGE
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P7_Outline
+#Python_LL_P7_notes
   #PYTHON ARRAYS
   #PYTHON ITERATORS
   #PYTHON MODULES
   #PYTHON DATES
   #PYTHON MATH
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P8_Outline
+#Python_LL_P8_notes
   #PYTHON JSON
   #PYTHON RegEx
   #PYTHON PIP
@@ -49,7 +49,7 @@ PYTHON LEARNING LANGUAGE
   #PYTHON NONE
   #PYTHON USER INPUT
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_LL_P9_Outline
+#PPython_LL_P9_notes
 #PYTHON CLASSES
   #PYTHON OOP
   #PYTHON CLASSES/OBJECTS
@@ -62,21 +62,25 @@ PYTHON LEARNING LANGUAGE
   #PYTHON ENCAPSULATION 
   #PYTHON INNER CLASS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Python_Extended_P1
+PYTHON NOTES EXTENDED:
+#Python_LL_P4_Notex_Extended_P1
 #PYTHON VIRTUAL ENVIRONMENT
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P2
 #FILE HANDLING 
   #PYTHON FILE HANDLING
   #PYTHON READ FILES
   #PYTHON WRITE/CREATE FILES
   #PYTHON DELETE FILES
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P3
 #PYTHON MODULES
   #NUMPY TUTORIAL
   #PANDAS TUTORIAL
   #SCIPY TUTORIAL
   #DJANGO TUTORIAL
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P4
 #PYTHON MATPLOTLIB
   #Matplotlib Intro
   #Matplotlib Get Started
@@ -92,6 +96,7 @@ PYTHON LEARNING LANGUAGE
   #Matplotlib Histograms
   #Matplotlib Pie Charts
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P5
 #MACHINE LEARNING
   Getting Started
   Mean Median Mode
@@ -117,6 +122,7 @@ PYTHON LEARNING LANGUAGE
   AUC - ROC Curve
   K-nearest neighbors
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P6
 #PYTHON DSA - Data Structures & Algorithms
   Python DSA
   Lists and Arrays
@@ -139,6 +145,7 @@ PYTHON LEARNING LANGUAGE
   Radix Sort
   Merge Sort
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P7
 #PYTHON SQL 
   MySQL Get Started
   MySQL Create Database
@@ -153,6 +160,7 @@ PYTHON LEARNING LANGUAGE
   MySQL Limit
   MySQL Join
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python_LL_P4_Notex_Extended_P8
 #PYTHON MONGODB
   MongoDB Get Started
   MongoDB Create DB
