@@ -1,6 +1,116 @@
 #Python_LL_P6_Outline
-  #PYTHON FUNCTIONS
+  #PYTHON FUNCTIONS: a block of code which only runs when it is called. 
+
+  #Simple Example:
   
+  def my_function():
+  print("Hello from a function")
+
+  #Calling a Function:
+  def my_function():
+  print("Hello from a function")
+
+  my_function()
+
+  #Function Rules:
+  - A function name must start with a letter or underscore
+  - A function name can only contain letters, numbers, and underscores
+  - Function names are case-sensitive (myFunction and myfunction are different)
+
+  #Simplification:
+  temp1 = 77
+  celsius1 = (temp1 - 32) * 5 / 9
+  print(celsius1)
+  
+  temp2 = 95
+  celsius2 = (temp2 - 32) * 5 / 9
+  print(celsius2)
+  
+  temp3 = 50
+  celsius3 = (temp3 - 32) * 5 / 9
+  print(celsius3)
+
+  OR
+
+  def fahrenheit_to_celsius(fahrenheit):
+  return (fahrenheit - 32) * 5 / 9
+
+  print(fahrenheit_to_celsius(77))
+  print(fahrenheit_to_celsius(95))
+  print(fahrenheit_to_celsius(50))
+
+  #Return Values;
+  def get_greeting():
+  return "Hello from a function"
+
+  message = get_greeting()
+  print(message)
+
+  #Pass statment:
+  def my_function():
+    pass
+  
+  #Funtion Arugment and Parameter
+    Parameter: A variable in the function definition (the placeholder)
+    Argument: The actual value you pass when calling the function
+
+  def my_function(fname):
+  print(fname + " Refsnes")
+
+  my_function("Emil")
+  my_function("Tobias")
+  my_function("Linus")
+
+  #Default Parameter Value:
+  def my_function(name = "friend"):
+  print("Hello", name)
+  
+  my_function("Emil")
+  my_function("Tobias")
+  my_function()
+  my_function("Linus")
+
+  #Keyword Arguments: order doesn't matter
+  def my_function(animal, name):
+    print("I have a", animal)
+    print("My", animal + "'s name is", name)
+
+  my_function(animal = "dog", name = "Buddy")
+
+
+  #Positional Arguments: matched to parameters by position:
+  def my_function(animal, name):
+  print("I have a", animal)
+  print("My", animal + "'s name is", name)
+
+  my_function("dog", "Buddy")
+
+  #Mixing Positional and Keyword Arguments
+  def my_function(animal, name, age):
+    print("I have a", age, "year old", animal, "named", name)
+
+  my_function("dog", name = "Buddy", age = 5)
+
+  #Passing Different Data Types
+  def my_function(fruits):
+  for fruit in fruits:
+    print(fruit)
+  
+  my_fruits = ["apple", "banana", "cherry"]
+  my_function(my_fruits)
+
+  #Dictionary as Argument:
+  def my_function(person):
+  print("Name:", person["name"])
+  print("Age:", person["age"])
+
+  my_person = {"name": "Emil", "age": 25}
+  my_function(my_person)
+
+  #Return Values:
+  
+  
+    
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   #PYTHON RANGE
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
